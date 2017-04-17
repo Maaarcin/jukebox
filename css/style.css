@@ -1,0 +1,199 @@
+body {
+font-family: 'Indie Flower', Verdana, cursive;
+font-size: 1.1rem;
+margin: 0;
+padding: 0;
+background: url("../images/background.jpg") no-repeat center;
+display: block;
+}
+
+
+
+.header {
+  width: 100%;
+  height: auto;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  color: #F26805;
+  font-size: 2.3rem;
+  font-weight: 600;
+  }
+
+h1:hover {
+  color: #466305;
+  background-color: #662424;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav ul {
+  padding: 0;
+  margin: 0;
+  display: block;
+  width: auto;
+  list-style: none;
+}
+
+.nav ul li a {
+  color: #F26805;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 600;
+  list-style: none;
+}
+
+.nav ul li a:hover {
+  color: #466305;
+  background-color: #662424;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+}
+
+.jukebox {
+  margin: 20px auto;
+  width: 450px;
+  height: 600px;
+  box-sizing: border-box;
+}
+
+.top {
+  margin: 1px auto;
+  height: 200px;
+  width: 400px;
+  border-top-left-radius: 400px;
+  border-top-right-radius: 400px;
+  border: 1px solid black;
+  background-color: #F75707;
+}
+
+.top2 {
+  height: 150px;
+  width: 300px;
+  border-top-left-radius: 300px;
+  border-top-right-radius: 300px;
+  margin: 50px auto;
+  background-color: #662424;
+}
+
+#buttonsPanel {
+  width: 400px;
+  height: 40px;
+  background-color: #466305;
+  border: 0 solid black;
+  margin: 0 auto;
+
+}
+
+@keyframes rolling_numbers {
+  0% { transform:rotate(0); }
+  10% { transform:rotate(360deg); }
+  100% { transform:rotate(360deg); }
+}
+
+#buttonsPanel > span {
+  background-color: #EDBF05;
+  color: #F26805;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #FF0000;
+  font-size: 1.5rem;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-top: 4px;
+  margin-left: 1px;
+  animation:rolling_numbers 4s linear infinite;
+  cursor: pointer;
+}
+
+#buttonsPanel span:hover {
+  color: #466305;
+  font-weight: 600;
+}
+
+.set {
+  width: 400px;
+  height: 250px;
+  background-color: #F75707;
+  border: 1px solid black;
+  margin: 1px auto;
+}
+
+.screen {
+  width: 350px;
+  height: 200px;
+  background-color: black;
+  border: 1px solid black;
+  margin: 25px 25px;
+  position: absolute;
+
+}
+
+.instructions {
+  width: 400px;
+  color: #ffffff;
+  background-color: #466305;
+  border: 1px solid black;
+  font-size: 1.1rem;
+  text-align: center;
+  padding-top: 8px;
+  margin: auto;
+  display: block;
+}
+
+.bottom {
+  width: 400px;
+  height: 40px;
+  background-color: #662424;
+  display: block;
+  margin: auto;
+  border-bottom: 1px solid black;
+}
+
+.articleSidebar {
+  width: 100%;
+  margin: 0 auto;
+  height: auto;
+  max-width: 1200px;
+  color: #F75707;
+  box-sizing: border-box;
+  display: block;
+
+
+}
+
+.songs {
+  margin: 0 auto;
+  font-size: 1.3rem;
+  font-weight: 600;
+  max-width: 600px;
+  background: #ffffff;
+  padding: 10px;
+}
+
+p {
+  background: #ffffff;
+  font-weight: 600;
+  padding: 10px;
+  text-align: justify;
+}
+
+#copyright {
+  text-align: center;
+  margin: 0 auto;
+  color: #F75707;
+}
